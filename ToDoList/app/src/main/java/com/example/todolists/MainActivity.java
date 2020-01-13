@@ -38,19 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn.setOnClickListener(this);
         itemsList.setOnItemClickListener(this);
 
-        configerWeekButton();
-
     }
 
-    private void configerWeekButton() {
-        Button weekButton = findViewById(R.id.week_overview);
-        weekButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, activity_week_overview.class));
-            }
-        });
-    }
 
     @Override
     public void onClick(View view) {

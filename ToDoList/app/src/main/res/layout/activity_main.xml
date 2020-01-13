@@ -31,12 +31,6 @@
                 android:layout_weight="1"
                 android:text="Add" />
 
-            <Button
-                android:id="@+id/week_overview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="week" />
-
         </LinearLayout>
 
         <ListView

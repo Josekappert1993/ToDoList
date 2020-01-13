@@ -12,14 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sunday"></activity>
-        <activity android:name=".Saturday" />
-        <activity android:name=".Friday" />
-        <activity android:name=".Thursday" />
-        <activity android:name=".Wednesday" />
-        <activity android:name=".Tuesday" />
-        <activity android:name=".Monday" />
-        <activity android:name=".activity_week_overview" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
